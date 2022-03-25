@@ -38,4 +38,4 @@ export function Wheel(props) {
   )
 }
 
-export default connect( st => st, actionCreators )(Wheel)
+export default connect( state => state, actionCreators )(Wheel)

@@ -10,4 +10,4 @@ export function Message(props) {
 
 }
 
-export default connect(st => st, actionCreators)(Message)
+export default connect(state => state, actionCreators)(Message)
